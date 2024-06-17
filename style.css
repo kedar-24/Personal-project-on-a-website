@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,700&display=swap');
+
+#logon{
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 75px;
+
+}
+.nav .line{
+    display: inline;
+}
+:root{
+    --main-color:#3867d6;
+}
+*{
+    margin-top: auto;
+    color:#f4f4f4;
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    outline: none; border:none;
+   /* text-decoration: none;*/
+}
+
+html{
+    font-size: 20px;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #222
+}
+.outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+.header{
+    position: relative;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    background: #000101;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:1.5rem 9%;
+}
+.header .navbar{
+font-size: 1.0rem;
+color:#fff;
+margin-right: 5rem;
+}
+.navbar li{
+    display:inline
+    
+}
+.inner img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+  }
+.inner {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    background: #4c4b4b;
+    text-align: left;
+    color: #0000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+  }
+.main{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.hello .Line{
+    display: inline;
+}
+#searchbar{
+	margin-left: 50%;
+	padding:10px;
+	border-radius: 10px;
+    vertical-align: middle;
+}
+
+input[type=text] {
+    color: #000;
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 40%;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 55%;
+    /*display: none;*/
+}
+.events{
+display: list-item;
+}
+.fb{
+    margin-left: 10px;
+    width: 30px;
+    vertical-align: middle;
+    text-decoration: none;
+    
+}
+.insta{
+    margin-left: 10px;
+    width: 30px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.twit{
+    margin-left: 10px;
+    width: 30px;
+    text-decoration: none;
+    vertical-align: middle;
+}
